@@ -2,7 +2,6 @@ import { ValidationError, useForm } from "@formspree/react";
 import { motion } from "framer-motion";
 import { useAtom } from "jotai";
 import { currentProjectAtom, projects } from "./Projects";
-import background from '../assets/background.mp4'
 
 export const Background = () => {
     return (
