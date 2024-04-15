@@ -46,7 +46,6 @@ function App() {
               <Interface setSection={setSection} />
             </Scroll>
           </ScrollControls>
-          <OrbitControls />
         </Canvas>
         <Menu
           onSectionChange={setSection}
